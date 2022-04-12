@@ -1,0 +1,375 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Quicksand;
+  color: #5c5c5c;
+}
+
+/* scrollbar customized */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bfbfbf;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bfbfbf;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+/* nav bar styles */
+
+header {
+  height: 68px;
+  background-color: #fdf1eb;
+}
+
+.navbar {
+  background-color: #fdf1eb;
+  min-height: 68px;
+}
+
+.navbar-brand {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+  min-width: 220px;
+  min-height: 68px;
+  max-height: 100%;
+  margin-right: 0;
+}
+
+.profile-welcome {
+  padding-top: 8px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: right;
+  color: #333333;
+}
+
+.profile-email {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: right;
+  color: #333333;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-title-1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #725c5c;
+}
+
+.navbar-title-2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #725c5c;
+}
+
+.navbar-title-3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #725c5c;
+}
+
+.padding-title {
+  position: absolute;
+  padding-left: 256px;
+}
+
+/* sidebar styles */
+
+.sidebar {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  min-width: 220px;
+  max-width: 220px;
+  min-height: calc(100vh - 68px);
+}
+
+.sidebar-itens {
+  height: 35px;
+  display: block;
+  padding-left: 24px;
+  padding-top: 7px;
+  text-decoration: none;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  color: #725c5c;
+  border-bottom: solid;
+  border-color: #e7e7e7;
+  border-bottom-width: 2px;
+}
+
+.sidebar-img {
+  height: 258px;
+  padding: 0;
+}
+
+.sidebar-itens:hover,
+.sidebar ul li.active {
+  color: #725c5c;
+  background: #fdf1eb;
+  border-left: solid;
+  border-left-width: 5px;
+}
+
+/* ocultar sidebar */
+
+@media (max-width: 991px) {
+  .sidebar {
+    margin-left: -220px;
+  }
+}
+
+/* content styles */
+
+.list-group-item {
+  padding-left: 37px;
+}
+
+.content-int {
+  padding-top: 20px;
+  padding-left: 37px;
+  padding-right: 44px;
+}
+
+.content-title {
+  background-color: red;
+  height: 54px;
+  width: 786px;
+}
+
+.content-actions {
+  width: 242px;
+  height: 54px;
+  background-color: black;
+}
+
+.content-video {
+  padding-left: 37px;
+  background-color: black;
+  height: 439px;
+  width: 786px;
+  margin-top: 20px;
+}
+
+.content-table {
+  width: 242px;
+  height: 439px;
+  background-color: red;
+  margin-top: 20px;
+}
+
+.answers-card {
+  margin: 15px;
+  border: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-details {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.card-header {
+  background: #fdf1eb;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height, or 125% */
+  display: flex;
+  align-items: center;
+  color: #4e4e4e;
+}
+
+.card-text {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #5c5c5c;
+}
+
+.details-card {
+  height: 439px;
+}
+
+.f-text {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  color: #4d4d4d;
+}
+
+.img-galoa {
+  float: left;
+  border: transparent thin solid;
+  padding: 5px;
+  margin: 0px 10px 10px 0;
+  max-width: 230px;
+}
+
+.text-light {
+  color: #a5a5a5;
+}
+
+.lg-actions {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.lg-actions a {
+  color: #ed7839;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topic-icons {
+  color: #ed7839;
+  margin: 25px;
+  font-size: 30px;
+}
+
+.btn-slaca {
+  border-radius: 0.2rem !important;
+  margin: 5px;
+  color: #fff;
+  background-color: #ed7839;
+  border-color: #ed7839;
+}
+
+.autor-answer {
+  background: #f8f8f8;
+}
+
+.card-top {
+  background: #fdf1eb;
+}
+
+.first-title {
+  border: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #ed7839;
+}
+
+.btn-group {
+  border-radius: 3px;
+}
+
+.text-buttons {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 179% */
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #ed7839;
+}
+
+.title-superior {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #725c5c;
+  margin-bottom: 2px !important;
+}
+
+.title-middle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #725c5c;
+}
+
+.title-bottom {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #725c5c;
+}
+
+.padding-profile {
+  padding-top: 14px;
+}
+
+.fa-list-ul {
+  font-size: 30px;
+  color: #ed7839;
+}
+
+.slaca-smart {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ed7839;
+}
