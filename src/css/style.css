@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   height: 100%;
-  font-family: Quicksand;
+  font-family: "Quicksand";
   color: #5c5c5c;
 }
 
@@ -40,7 +40,7 @@ header {
 }
 
 .navbar-brand {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -57,7 +57,7 @@ header {
 
 .profile-welcome {
   padding-top: 8px;
-  font-family: Quicksand;
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -67,7 +67,7 @@ header {
 }
 
 .profile-email {
-  font-family: Quicksand;
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -79,21 +79,22 @@ header {
 .list-group-item {
   background-color: transparent;
   border: none;
+  color: #5c5c5c;
 }
 
 .navbar-title-1 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #725c5c;
 }
 
 .navbar-title-2 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   /* identical to box height */
@@ -101,12 +102,25 @@ header {
 }
 
 .navbar-title-3 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #725c5c;
+}
+
+.lista-anais {
+    flex: auto;
+}
+
+.reto {
+    display: flex;    
+}
+
+.mundo {
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
 
 .padding-title {
@@ -115,6 +129,10 @@ header {
 }
 
 /* sidebar styles */
+
+.navegacao-slaca {
+    position: fixed;
+}
 
 .sidebar {
   background: #ffffff;
@@ -130,7 +148,7 @@ header {
   padding-left: 24px;
   padding-top: 7px;
   text-decoration: none;
-  font-family: Quicksand;
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -148,10 +166,11 @@ header {
 
 .sidebar-itens:hover,
 .sidebar ul li.active {
-  color: #725c5c;
+  color: #ed7839;
   background: #fdf1eb;
   border-left: solid;
   border-left-width: 5px;
+  
 }
 
 /* ocultar sidebar */
@@ -175,7 +194,7 @@ header {
 }
 
 .content-title {
-  background-color: red;
+  background-color: #f00;
   height: 54px;
   width: 786px;
 }
@@ -183,12 +202,12 @@ header {
 .content-actions {
   width: 242px;
   height: 54px;
-  background-color: black;
+  background-color: #000;
 }
 
 .content-video {
   padding-left: 37px;
-  background-color: black;
+  background-color: #000;
   height: 439px;
   width: 786px;
   margin-top: 20px;
@@ -197,7 +216,7 @@ header {
 .content-table {
   width: 242px;
   height: 439px;
-  background-color: red;
+  background-color: #f00;
   margin-top: 20px;
 }
 
@@ -205,7 +224,7 @@ header {
   margin: 15px;
   border: 1px solid #e7e7e7;
   box-sizing: border-box;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 8px #0000001f;
   border-radius: 4px;
 }
 
@@ -214,29 +233,30 @@ header {
 }
 
 .card-details {
+  color: #5c5c5c;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+  letter-spacing: 0.02em;
 }
 
 .card-header {
   background: #fdf1eb;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 25px;
-  /* identical to box height, or 125% */
   display: flex;
   align-items: center;
   color: #4e4e4e;
 }
 
 .card-text {
-  font-family: Quicksand;
+  font-family: "Quicksand";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 23px;
   letter-spacing: 0.02em;
@@ -248,7 +268,7 @@ header {
 }
 
 .f-text {
-  font-family: Quicksand;
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -286,11 +306,16 @@ header {
 }
 
 .btn-slaca {
-  border-radius: 0.2rem !important;
+  border-radius: 4px !important;
   margin: 5px;
   color: #fff;
   background-color: #ed7839;
   border-color: #ed7839;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .autor-answer {
@@ -303,7 +328,7 @@ header {
 
 .first-title {
   border: 0;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
@@ -317,7 +342,7 @@ header {
 }
 
 .text-buttons {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -329,7 +354,7 @@ header {
 }
 
 .title-superior {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -339,7 +364,7 @@ header {
 }
 
 .title-middle {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -348,7 +373,7 @@ header {
 }
 
 .title-bottom {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -366,7 +391,7 @@ header {
 }
 
 .slaca-smart {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
