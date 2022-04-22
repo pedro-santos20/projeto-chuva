@@ -6,9 +6,13 @@
     <title>SLACA 2019 - Front-End</title>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -63,261 +67,303 @@
             <header class="py-1 mb-1 border-bottom">
                 <div class="d-flex justify-content-between">
                     <div class="d-flex ml-auto">
-                        <div id="dropSidebar" class="container-fluid d-grid gap-3 align-items-center" >
+                        <div id="dropSidebar" class="container-fluid d-grid gap-3 align-items-center">
                             <div class="dropdown d-block d-lg-none">
-                              <a href="#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-dark text-decoration-none" id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                  <i class="fas fa-list-ul"></i>
-                              </a>
-                              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownNavLink">
-                                  <li><a class="dropdown-item" href="#">Apresentação</a></li>
-                                  <li><a class="dropdown-item" href="#">Comitês</a></li>
-                                  <li><a class="dropdown-item" href="#">Autores</a></li>
-                                  <li><a class="dropdown-item" href="#">Eixos tematicos</a></li>
-                                  <li><a class="dropdown-item" href="#">Trabalhos</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="#">Contato</a></li>
-                              </ul>
+                                <a href="#"
+                                    class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-dark text-decoration-none"
+                                    id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-list-ul"></i>
+                                </a>
+                                <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownNavLink">
+                                    <li><a class="dropdown-item" href="#">Apresentação</a></li>
+                                    <li><a class="dropdown-item" href="#">Comitês</a></li>
+                                    <li><a class="dropdown-item" href="#">Autores</a></li>
+                                    <li><a class="dropdown-item" href="#">Eixos tematicos</a></li>
+                                    <li><a class="dropdown-item" href="#">Trabalhos</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Contato</a></li>
+                                </ul>
                             </div>
-                            </div>
+                        </div>
                     </div>
                     <div class="align-self-center d-block d-lg-none">
                         <span class="slaca-smart">SLACA 2019</span>
-    </div>
-    <div class="d-none d-lg-block ml-auto p-0 lista-anais">
-        <ul class="list-group m-0 p-0">
-            <li class="list-group-item navbar-title-1 p-0">Anais do Simpósio Latino Americano de Ciências de Alimentos</li>
-            <li class="list-group-item navbar-title-2 p-0">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</li>
-            <li class="list-group-item navbar-title-3 p-0">ISSN: 1234-5678</li>
-        </ul>
-    </div>
-    <div class="reto">
-        <div class="py-3 d-flex dropdown align-items-end mundo">
-            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle mr-auto" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-globe"></i>
-            </a>
-            <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
-                <li><a class="dropdown-item" href="#">PT-BR &#x1F1E7;&#x1F1F7;</a></li>
-                <li><a class="dropdown-item" href="#">EN-US &#x1F1FA;&#x1F1F8;</a></li>
-            </ul>
-        </div>
-        <div class="py-3 d-flex dropdown align-items-end">
-            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle mr-auto" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
-                Bem-vindo!
-                <img src="../img/pessoa1.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
-            </a>
-            <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
-                <li><a class="dropdown-item" href="#">Perfil</a></li>
-                <li><a class="dropdown-item" href="#">Configurações</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Sair</a></li>
-            </ul>
-        </div>
-    </div>
-    </div>
-    </header>
-
-    <div class="card d-block d-lg-none">
-        <div class="card-header">
-            <ul class="list-group m-0 p-0">
-                <li class="list-group-item navbar-title-1 p-0">Anais do Simpósio Latino Americano de Ciências de Alimentos</li>
-                <li class="list-group-item navbar-title-2 p-0">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</li>
-                <li class="list-group-item navbar-title-3 p-0">ISSN: 1234-5678</li>
-            </ul>
-        </div>
-    </div>
-
-
-
-    <div class="content-int">
-
-        <div class="row">
-            <div class="col-lg-9">
-                <div class="card first-title">
-                    Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card border-0">
-                    <ul class="list-group">
-                        <li class="list-group-item p-0 text-center">
-                            <div class="btn-group">
-                                <a href="#" class="btn btn-sm  btn-slaca"><i class="fa-solid fa-download"></i> Download</a>
-                                <a href="#" class="btn btn-sm btn-slaca"><i class="fas fa-star"></i></a>
-                                <a href="#" class="btn btn-sm btn-slaca"><i class="fa-solid fa-upload"></i></a>
-                            </div>
-                        </li>
-                        <li class="list-group-item text-center p-0">
-                            <a class="text-decoration-none" href=""><span class="text-buttons p-0">COMO CITAR ESTE TRABALHO?</span></a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-9">
-                <div class="card">
-                    <iframe width="787" height="480" src="https://www.youtube.com/embed/Ptbk2af68e8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card details-card">
-                    <div class="card-header">
-                        Detalhes
                     </div>
-                    <div class="card-body card-details overflow-auto">
-                        <ul class="list-group mb-3">
-                            <li class="list-group-item p-0">
-                                Tipo de Apresentação: <strong>Pôster</strong></li>
-                            <li class="list-group-item p-0">
-                                Eixo temático: <strong>Alimentação e
-                                            saúde (AS)</strong></li>
-                            <li class="list-group-item p-0">
-                                Palavras-chaves: <strong>Alimentos funcionais, alimentação escolar</strong>
-                            </li>
-                        </ul>
-                        <strong>Autores:</strong>
-                        <ul class="list-group mb-3">
-                        <br><li class="list-group-item p-0">
-                                Galileo Galilei
-                            </li>
-                            <li class="list-group-item p-0">
-                                Berta Lange de Morretes
-                            </li>
-                            <li class="list-group-item p-0">
-                                Isaac Newton
-                            </li>
-                            <li class="list-group-item p-0">
-                                Cesar Lattes
-                            </li>
-                            <li class="list-group-item p-0">
-                                Stephen Hawkings
-                            </li>
-                        </ul>
-                        <ul class="list-group">
-                            <li class="list-group-item p-0">
-                                Universidade Estadual de Campinas
-                            </li>
-                            <li class="list-group-item p-0">
-                                Universidade de São Paulo
-                            </li>
-                            <li class="list-group-item p-0">
-                                Instituto Nacional de Pesquisas Espaciais
-                            </li>
-                            <li class="list-group-item p-0">
-                                Universidade Federal do Rio de Janeiro
-                            </li>
+                    <div class="d-none d-lg-block ml-auto p-0 lista-anais">
+                        <ul class="list-group m-0 p-0">
+                            <li class="list-group-item navbar-title-1 p-0">Anais do Simpósio Latino Americano de
+                                Ciências de Alimentos</li>
+                            <li class="list-group-item navbar-title-2 p-0">Anais do 13º Simpósio Latino Americano de
+                                Ciência de Alimentos</li>
+                            <li class="list-group-item navbar-title-3 p-0">ISSN: 1234-5678</li>
                         </ul>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card text-start">
-            <div class="card-header">
-                Resumo
-            </div>
-            <div class="card-body">
-                <p class="card-text text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant...</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-                Discussões
-            </div>
-            <div class="card-body text-center">
-                <div id="criarTopico">
-                    <h5 class="card-title">Compartilhe suas ideias ou dúvidas com os autores!</h5>
-                    <p>
-                        <span class="topic-icons"><i class="fas fa-leaf"></i></span>
-                        <span class="topic-icons"><i class="fas fa-question-circle"></i></span>
-                        <span class="topic-icons"><i class="fas fa-users"></i></span>
-                    </p>
-                    <p class="card-text">Sabia que o maior estímulo no desenvolvimento científico e cultural e a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
-                    <a id="btnCriarTopico" class="btn btn-slaca">Criar tópico</a>
-                    <hr>
-                </div>
-                <div id="formulario">
-                    <p class="text-center">Tem uma dúvida ou sugestão? Compartilhe feedback com os autores!</p>
-                    <form class="text-start">
-                        <div class="mb-3">
-                            <label for="assunto">Assunto</label>
-                            <input type="text" class="form-control" id="assunto">
+                    <div class="reto">
+                        <div class="py-3 d-flex dropdown align-items-end mundo">
+                            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle mr-auto"
+                                id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                            <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                                <li><a class="dropdown-item" href="#">PT-BR &#x1F1E7;&#x1F1F7;</a></li>
+                                <li><a class="dropdown-item" href="#">EN-US &#x1F1FA;&#x1F1F8;</a></li>
+                            </ul>
                         </div>
-                        <div class="mb-3">
-                            <label for="conteudo">Conteúdo</label>
-                            <textarea class="form-control  mb-3" name="conteudo" id="conteudo" rows="5"></textarea>
-                            <div class="d-grid gap-2">
-                                <button id="btnEnviar" class="btn btn-slaca" type="button">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-
-            <div id="global">
-                <div class="card text-start border-0">
-                    <div class="answers-card card-body">
-                        <h5 class="card-title">
-
-                        </h5>
-                        <h6 class="card-subtitle">
-                            Lucas Lizzabello Saranholi
-                        </h6> <br>
-                        <p class="card-text">
-                            Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da analise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
-                        </p>
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item lg-actions"><a href=""><i class="fas fa-ellipsis-v"></i></a>
-                            </li>
-                            <li class="list-group-item lg-actions"><a href=""><i class="fas fa-heart"></i></a>
-                            </li>
-                            <li class="list-group-item lg-actions"><a href=""><span>1 like</span></a>
-                            </li>
-                            <li class="list-group-item lg-actions"><a href=""><span>1 Resposta</span></a></li>
-                        </ul>
-                        <hr>
-                        <div>
-                            <p><strong>Lucas Lizzabello Saranholi</strong> </p>
-                            <p>Resposta do autor e aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
-                            </p>
-                            <ul class="list-group list-group-horizontal">
-                                <li class="list-group-item lg-actions"><a href=""><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="py-3 d-flex dropdown align-items-end">
+                            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle mr-auto"
+                                id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Bem-vindo!
+                                <img src="../img/image (1).png" alt="mdo" width="32" height="32" class="rounded-circle">
+                            </a>
+                            <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                                <li><a class="dropdown-item" href="#">Configurações</a></li>
+                                <li><a class="dropdown-item" href="mailto:alguem12@galoascience.com"
+                                        target="_blank">alguem12@galoascience.com</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
                                 </li>
-                                <li class="list-group-item lg-actions"><a href=""><i class="fas fa-heart"></i></a>
-                                </li>
-                                <li class="list-group-item lg-actions"><a href=""><span>1 like</span></a>
-                                </li>
-                                <li class="list-group-item lg-actions"><a href=""><span>1 Resposta</span></a></li>
+                                <li><a class="dropdown-item" href="#">Sair</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div>
+            </header>
 
-
-        </div>
-        <div class="card border-0 ">
-            <div class="footer-content">
-                <img class="img-galoa" src="../img/logo-galoa.JPG" alt="">
-                <div class="card-body">
-                    <p class="card-text f-text "><strong>Preservar a memória da conferência e aumentar o alcance
-                                    do conhecimento científico</strong> é a razão pela qual o Processo de Galoá foi criado.
-                    </p>
-                    <p class="card-text f-text ">Os trabalhos da conferência publicados aqui são de acesso aberto e nossa indexação mantém os trabalhos apresentado na conferência fácil de encontrar e citar.</p>
+            <div class="card d-block d-lg-none">
+                <div class="card-header">
+                    <ul class="list-group m-0 p-0">
+                        <li class="list-group-item navbar-title-1 p-0">Anais do Simpósio Latino Americano de Ciências de
+                            Alimentos</li>
+                        <li class="list-group-item navbar-title-2 p-0">Anais do 13º Simpósio Latino Americano de Ciência
+                            de Alimentos</li>
+                        <li class="list-group-item navbar-title-3 p-0">ISSN: 1234-5678</li>
+                    </ul>
                 </div>
             </div>
+
+
+
+            <div class="content-int">
+
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="card first-title">
+                            Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos,
+                            do município de Campinas/SP
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0">
+                            <ul class="list-group">
+                                <li class="list-group-item p-0 text-center">
+                                    <div class="btn-group">
+                                        <a href="#" class="btn btn-sm  btn-slaca"><i class="fa-solid fa-download"></i>
+                                            Download</a>
+                                        <a href="#" class="btn btn-sm btn-slaca"><i class="fas fa-star"></i></a>
+                                        <a href="#" class="btn btn-sm btn-slaca"><img src="../img/doi.png" alt=""></a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item text-center p-0">
+                                    <a class="text-decoration-none" href=""><span class="text-buttons p-0">COMO CITAR
+                                            ESTE TRABALHO?</span></a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="card">
+                            <iframe width="787" height="480" src="https://www.youtube.com/embed/Ptbk2af68e8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card details-card">
+                            <div class="card-header">
+                                Detalhes
+                            </div>
+                            <div class="card-body card-details overflow-auto">
+                                <ul class="list-group mb-3">
+                                    <li class="list-group-item p-0">
+                                        Tipo de Apresentação: <strong>Pôster</strong></li>
+                                    <li class="list-group-item p-0">
+                                        Eixo temático: <strong>Alimentação e
+                                            saúde (AS)</strong></li>
+                                    <li class="list-group-item p-0">
+                                        Palavras-chaves: <strong>Alimentos funcionais, alimentação escolar</strong>
+                                    </li>
+                                </ul>
+                                <strong>Autores:</strong>
+                                <ul class="list-group mb-3">
+                                    <br>
+                                    <li class="list-group-item p-0">
+                                        Galileo Galilei
+                                    </li>
+                                    <li class="list-group-item p-0">
+                                        Berta Lange de Morretes
+                                    </li>
+                                    <li class="list-group-item p-0">
+                                        Isaac Newton
+                                    </li>
+                                    <li class="list-group-item p-0">
+                                        Cesar Lattes
+                                    </li>
+                                    <li class="list-group-item p-0">
+                                        Stephen Hawkings
+                                    </li>
+                                </ul>
+                                <ul class="list-group">
+                                    <li class="list-group-item p-0">
+                                        Universidade Estadual de Campinas
+                                    </li>
+                                    <li class="list-group-item p-0">
+                                        Universidade de São Paulo
+                                    </li>
+                                    <li class="list-group-item p-0">
+                                        Instituto Nacional de Pesquisas Espaciais
+                                    </li>
+                                    <li class="list-group-item p-0">
+                                        Universidade Federal do Rio de Janeiro
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card text-start">
+                    <div class="card-header">
+                        Resumo
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris,
+                            egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida.
+                            Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut
+                            viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum lobortis et non
+                            lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros
+                            vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl
+                            metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum. Etiam
+                            aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant...</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        Discussões
+                    </div>
+                    <div class="card-body text-center">
+                        <div id="criarTopico">
+                            <h5 class="card-title">Compartilhe suas ideias ou dúvidas com os autores!</h5>
+                            <p>
+                                <span class="topic-icons"><img src="../img/ecological (2).png"
+                                        alt="Mão com planta"></span>
+                                <span class="topic-icons"><img src="../img/thought-bubble.png"
+                                        alt="Balão de conversa"></span>
+                                <span class="topic-icons"><img src="../img/chuva-de-ideias.png"
+                                        alt="Pessoas com ideia"></span>
+                            </p>
+                            <p class="card-text">Sabia que o maior estímulo no desenvolvimento científico e cultural é a
+                                curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
+                            <button onclick="apertaBotao()" id="btnCriarTopico" class="btn btn-slaca">&#43; criar tópico</button>
+                            <hr>
+                        </div>
+                        <div id="formulario">
+                            <p class="text-center">Tem uma dúvida ou sugestão? Compartilhe feedback com os autores!</p>
+                            <form class="text-start">
+                                <div class="mb-3">
+                                    <label for="assunto">Assunto</label>
+                                    <input type="text" class="form-control" id="assunto" placeholder="  Defina um tópico sucinto para notificar os autores...">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="conteudo">Conteúdo</label>
+                                    <textarea class="form-control  mb-3" name="conteudo" id="conteudo"
+                                        rows="5"></textarea>
+                                    <div class="d-grid gap-2">
+                                    </div>
+                                </div>
+                            </form>
+                            <button id="btnEnviar" class="btn btn-slaca">Enviar</button>
+                        </div>
+                        <div id="agradecimento">
+                            <h3 class="titulo-agradecimento">Seu tópico foi enviado com sucesso! :D</h3>
+                            <p class="texto-agradecimento">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+                            <a class="link-laranja" href="#" target="_blank" rel="noopener noreferrer">Descubra outros trabalhos!</a>
+                            <button id="btnNovoTopico" class="btn btn-slaca">criar novo tópico</button>
+
+                        </div>
+
+                    </div>
+
+                    <div id="global">
+                        <div class="card text-start border-0">
+                            <div class="answers-card card-body">
+                                <h5 class="assuntoTitulo">Assunto da pergunta aparece aqui</h5>
+                                <h6 class="card-subtitle">
+                                    Carlos Henrique Santos
+                                </h6>
+                                <p class="card-text">
+                                    Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da analise da
+                                    dimensão e impacto de processo formativo situado impacto de processo formativo
+                                    processo...
+                                </p>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item lg-actions"><a href=""><i
+                                                class="fas fa-ellipsis-v"></i></a>
+                                    </li>
+                                    <li class="list-group-item lg-actions"><button class="coracao"><i
+                                                class="fa-regular fa-heart"></i></button>
+                                    </li>
+                                    <li class="list-group-item lg-actions"><a href=""><span class="likes">1
+                                                like</span></a>
+                                    </li>
+                                    <li class="list-group-item lg-actions"><a href=""><span class="likes">1
+                                                Resposta</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="answers-card card-body">
+                                <div>
+                                    <h5 class="assuntoTitulo">Assunto da pergunta aparece aqui</h5>
+                                    <p class="nomePessoa">Carlos Henrique Santos</p>
+                                    <p class="card-text">Comecinho da pergunta aparece aqui resente relato
+                                        inscreve-se
+                                        no campo da análise da dimensão e impacto de processo formativo situado
+                                        impacto
+                                        de processo formativo processo...
+                                    </p>
+                                    <ul class="list-group list-group-horizontal">
+                                        <li class="list-group-item lg-actions"><a href=""><i
+                                                    class="fas fa-ellipsis-v"></i></a>
+                                        </li>
+                                        <li class="list-group-item lg-actions"><button class="coracao"><i
+                                                    class="fa-regular fa-heart"></i></button>
+                                        </li>
+                                        <li class="list-group-item lg-actions"><a href=""><span class="likes">1
+                                                    like</span></a>
+                                        </li>
+                                        <li class="list-group-item lg-actions"><a href=""><span class="likes">1
+                                                    Resposta</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <footer>
+                    <img src="../img/imagem - footer.png" alt="Footer da página">
+                </footer>
+            </div>
         </div>
-    </div>
-    </div>
-
-
-
-    <script src="../javascript/script.js"></script>
+        <script src="../javascript/script.js"></script>
 </body>
 
 </html>

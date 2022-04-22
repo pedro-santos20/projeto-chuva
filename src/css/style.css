@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   height: 100%;
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   color: #5c5c5c;
 }
 
@@ -40,7 +40,7 @@ header {
 }
 
 .navbar-brand {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -57,7 +57,7 @@ header {
 
 .profile-welcome {
   padding-top: 8px;
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -67,7 +67,7 @@ header {
 }
 
 .profile-email {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -83,7 +83,7 @@ header {
 }
 
 .navbar-title-1 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -92,7 +92,7 @@ header {
 }
 
 .navbar-title-2 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -102,7 +102,7 @@ header {
 }
 
 .navbar-title-3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -111,16 +111,20 @@ header {
 }
 
 .lista-anais {
-    flex: auto;
+  flex: auto;
 }
 
+.topic-icons img {
+  width: 50px;
+  height: 48px;
+}
 .reto {
-    display: flex;    
+  display: flex;
 }
 
 .mundo {
-    margin-right: 20px;
-    margin-bottom: 5px;
+  margin-right: 20px;
+  margin-bottom: 5px;
 }
 
 .padding-title {
@@ -131,7 +135,7 @@ header {
 /* sidebar styles */
 
 .navegacao-slaca {
-    position: fixed;
+  position: fixed;
 }
 
 .sidebar {
@@ -148,7 +152,7 @@ header {
   padding-left: 24px;
   padding-top: 7px;
   text-decoration: none;
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -170,7 +174,6 @@ header {
   background: #fdf1eb;
   border-left: solid;
   border-left-width: 5px;
-  
 }
 
 /* ocultar sidebar */
@@ -224,7 +227,7 @@ header {
   margin: 15px;
   border: 1px solid #e7e7e7;
   box-sizing: border-box;
-  box-shadow: 0px 0px 8px #0000001f;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -243,7 +246,7 @@ header {
 
 .card-header {
   background: #fdf1eb;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -254,13 +257,13 @@ header {
 }
 
 .card-text {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 23px;
+  line-height: 18px;
   letter-spacing: 0.02em;
-  color: #5c5c5c;
+  color: #4d4d4d;
 }
 
 .details-card {
@@ -268,7 +271,7 @@ header {
 }
 
 .f-text {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -311,7 +314,7 @@ header {
   color: #fff;
   background-color: #ed7839;
   border-color: #ed7839;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -326,9 +329,14 @@ header {
   background: #fdf1eb;
 }
 
+.card-subtitle,
+.nomePessoa {
+  font-weight: 500 !important;
+}
+
 .first-title {
   border: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
@@ -341,8 +349,56 @@ header {
   border-radius: 3px;
 }
 
+#btnCriarTopico, #btnEnviar {
+  background: linear-gradient(180deg, #feb254 0%, #f0813d 100%);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+}
+
+.titulo-agradecimento {
+  display: flex;
+  flex-direction: column;
+  color: #ed7839;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.texto-agradecimento {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+
+#btnNovoTopico {
+  margin-top: 30px;
+  background: linear-gradient(180deg, #feb254 0%, #f0813d 100%);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  width: 235px;
+}
+
+.link-laranja {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-style: medium;
+  font-weight: 500;
+  color: #f48f44;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-laranja:hover {
+  color: #f48f44;
+}
+
 .text-buttons {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -353,8 +409,25 @@ header {
   color: #ed7839;
 }
 
+.coracao {
+  background-color: #ed7839;
+  border: none;
+  border-radius: 5px;
+}
+
+.assuntoTitulo {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  color: #ed7839;
+  font-weight: 700;
+}
+
+.likes {
+  color: #757575;
+}
+
 .title-superior {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -364,7 +437,7 @@ header {
 }
 
 .title-middle {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -373,7 +446,7 @@ header {
 }
 
 .title-bottom {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -391,7 +464,7 @@ header {
 }
 
 .slaca-smart {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
